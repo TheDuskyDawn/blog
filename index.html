@@ -1,0 +1,11 @@
+---
+layout: default
+title: Blog
+---
+<h1>Blog</h1>
+<p class="date">Notes on AI, ML and building things.</p>
+<ul class="posts">
+{% for post in site.posts %}
+<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a><br><span class="date">{{ post.date | date: "%-d %B %Y" }}</span></li>
+{% endfor %}
+</ul>

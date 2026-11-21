@@ -1,0 +1,7 @@
+title: TheDuskyDawn's blog
+description: Notes on AI, ML and building things.
+url: https://theduskydawn.github.io
+baseurl: /blog
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
